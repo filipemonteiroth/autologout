@@ -51,7 +51,7 @@ class AutoLogout extends React.Component {
           <div style={styles}>
             {this.state.isLoggedIn && this.state.isIdle == false
               ? "Hey, you are logged in"
-              : "mmm, you're about to be logged out"}
+              : "You're about to be logged out"}
           </div>
         ) : null}
         {this.state.isLoggedIn ? (
